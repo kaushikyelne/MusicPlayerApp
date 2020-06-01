@@ -26,7 +26,7 @@ namespace MusicPlayerApp
 
         private void btnSelectSongs_Click(object sender, EventArgs e)
         {
-            //cde to select the sound
+            //code to select the sound
             OpenFileDialog ofd = new OpenFileDialog();
             //code to select multiplefiles
             ofd.Multiselect = true;
